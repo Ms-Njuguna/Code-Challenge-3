@@ -1,0 +1,171 @@
+body {
+    background: rgba(194, 194, 194, 0.082);
+}
+
+#main-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-bottom: -30px; */
+}
+
+#page-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.theBlog {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 25px;
+    margin: 50px auto; /* Centers horizontally */
+    max-width: 900px; /* Use max-width instead of margin-left/right */
+    padding: 0 20px;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+}
+
+#side-menu {
+    background-color: #ffff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    padding: 10px;
+    width: 300px;
+}
+
+.blogListHeading {
+    border-bottom: 1px solid rgb(229, 231, 235);
+    padding: 12px;
+}
+
+.blogListHeading > h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.blogList {
+    padding: 12px;
+}
+
+#add-blogPost {
+    background-color: #ffff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+}
+
+#add-blogPost > h3 {
+    align-self: self-start;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#addBlogPostBtn {
+    background-color: #ffff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.addBlogPostForm {
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#addTitle {
+    width: 100%;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    align-self: center;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#addAuthorName {
+    width: 100%;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 5px;
+    align-self: center;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#addImage {
+    width: 100%;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    align-self: center;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#addPostContent {
+    width: 100%;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    align-self: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    min-height: 200px;
+}
+
+.addBlogPostFormButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#proceed-addPost-Btn {
+    background-color: black;
+    border: 1px solid rgb(34, 34, 35);
+    color: #ffff;
+    width: 85%;
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 0.9rem;
+}
+
+#cancel-addPost-Btn {
+    border: 1px solid rgb(34, 34, 35);
+    border-radius: 7px;
+    width: 40%;
+    padding: 6px;
+    font-size: 0.9rem;
+}
+
+#blogDisplayCard {
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    background-color: #ffff;
+    padding: 20px;
+    width: 500px;
+}
+
+#edit-post-form {
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    background-color: #ffff;
+    padding: 20px;
+    width: 500px;
+    /* margin-top: -265px; */
+}
