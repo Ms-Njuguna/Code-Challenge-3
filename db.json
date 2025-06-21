@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "10 Timeless Interior Design Styles Explained",
+      "author": "Decorilla",
+      "image_url": "https://www.decorilla.com/online-decorating/wp-content/uploads/2022/04/Timeless-interior-Wanda-P.jpg",
+      "date": "2025-06-22",
+      "description": "Explore the most popular interior design styles—from modern and minimalist to boho and Scandinavian—and how to bring them to life."
+    },
+    {
+      "id": 2,
+      "name": "How to Make a Small Room Feel Bigger",
+      "author": "Coral Nafie",
+      "image_url": "https://www.thespruce.com/thmb/a6A6z3l01Wkcrt2aNzgEW-5VFhU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CWC_9732-332e92ea62c647a685ca697357af7823.jpg",
+      "date": "2025-06-21",
+      "description": "Interior design tricks that make tight spaces feel open and airy, using color, light, and smart furniture placement."
+    },
+    {
+      "id": 3,
+      "name": "The Power of Natural Light in Home Design",
+      "author": "Ralston Architects Team",
+      "image_url": "https://www.ralstonarchitects.com/wp-content/uploads/elementor/thumbs/natural-light-in-house-design-quvxv26zejooqwt3c3xu417q56564amf1tudk60ye4.webp",
+      "date": "2025-06-19",
+      "description": "Learn how to maximize natural light in your home to create a warm, welcoming atmosphere and save on energy costs."
+    },
+    {
+      "id": 4,
+      "name": "2025 Interior Design Trends You will Love",
+      "author": "Essential Home",
+      "image_url": "https://www.essentialhome.eu/inspirations/wp-content/uploads/2024/08/Check-Out-These-20-Interior-Design-Trends-For-2025_2.jpg",
+      "date": "2025-06-18",
+      "description": "From earthy tones to smart homes, discover the top interior design trends to try this year and how to make them work in your space."
+    },
+    {
+      "id": 5,
+      "name": "Creating a Cozy Living Room on a Budget",
+      "author": "Masuzi",
+      "image_url": "https://i2.wp.com/www.thespruce.com/thmb/_4aYwjgKr4ABkBhVBZiUaLJrzus=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/EleanorEmail-5aaf1c6ec5cf45eea0a4cd70ddbd4b21.png?strip=all",
+      "date": "2025-06-16",
+      "description": "Affordable tips for transforming your living space into a cozy, stylish sanctuary without breaking the bank."
+    },
+    {
+      "id": 6,
+      "name": "How to Choose the Right Color Palette for Your Home",
+      "author": "H. Camille Smith",
+      "image_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2015/1/16/0/Tobi-Fairley_Riverside-Penthouse_living-room.jpg.rend.hgtvcom.791.594.85.suffix/1421431495250.webp",
+      "date": "2025-06-14",
+      "description": "Understand color psychology, contrast, and harmony to choose a palette that reflects your personality and style."
+    },
+    {
+      "id": 7,
+      "name": "Decorating with Plants: Bringing Life Indoors",
+      "author": "Pearl Bailey",
+      "image_url": "https://th.bing.com/th/id/R.32142a00dd19a9b48db4e5e0db75ad74?rik=Mp9M%2bt2eWVsaSQ&riu=http%3a%2f%2fwww.thedecorativesurfaces.com%2fwp-content%2fuploads%2f2019%2f12%2fnaturalezainterior1.jpg&ehk=zECP0rN3NO3cJCD6Tr5BVsY7slb1Mun7DCVoBJfYDQo%3d&risl=&pid=ImgRaw&r=0",
+      "date": "2025-06-12",
+      "description": "A guide to decorating your home with houseplants—from low-maintenance options to statement greenery pieces."
+    }
+  ]
+}
