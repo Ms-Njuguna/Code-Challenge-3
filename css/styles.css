@@ -20,7 +20,7 @@ body {
     align-items: flex-start; /* Aligns items to the top */
     gap: 25px;
     margin: 50px auto; /* Centers horizontally */
-    max-width: 900px; /* Use max-width instead of margin-left/right */
+    max-width: 1000px; /* Use max-width instead of margin-left/right */
     padding: 0 20px;
 }
 
@@ -52,6 +52,26 @@ body {
 
 .blogList {
     padding: 12px;
+}
+
+.blogList .blogList-Ul li {
+    border-bottom: 1px solid rgba(236, 237, 240, 0.469);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.blogList .blogList-Ul li :last-child {
+    font-size: 0.75rem;
+    color: rgb(157, 158, 161);
+}
+
+.blogList .blogList-Ul :last-child {
+    border-bottom: none;
+}
+
+.blogList .blogList-Ul li:hover{
+    background-color: rgb(229, 231, 235);
+    border-right: 2.5px solid rgb(34, 34, 35);
 }
 
 #add-blogPost {
@@ -157,15 +177,137 @@ body {
     border: 1px solid rgb(229, 231, 235);
     border-radius: 7px;
     background-color: #ffff;
-    padding: 20px;
-    width: 500px;
+    padding: 25px;
+    width: 600px;
 }
 
 #edit-post-form {
     border: 1px solid rgb(229, 231, 235);
     border-radius: 7px;
     background-color: #ffff;
-    padding: 20px;
-    width: 500px;
-    /* margin-top: -265px; */
+    padding: 25px;
+    width: 600px;
+}
+
+#topPartOfBlogDisplay {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#blogDisplayButtons {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#blogDisplayButtons svg {
+    width: 16px;
+    height: 16px;
+}
+
+#editBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #ffff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+#deleteButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #ffff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    color: rgb(255, 99, 99);
+    white-space: nowrap;
+}
+
+#deleteButton svg{
+    fill: rgb(255, 99, 99);
+}
+
+#blogDisplayTopInfo :last-child {
+    font-size: 0.85rem;
+    color: rgb(157, 158, 161);
+}
+
+#blogPhoto {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.numberOfPosts {
+    font-size: 0.85rem;
+    color: rgb(157, 158, 161);
+}
+
+.noBlogAvailableMsg {
+    font-size: 0.85rem;
+    color: rgb(157, 158, 161);
+}
+
+#edit-post-form h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#edit-post-form #edit-title{
+    margin-bottom: 10px;
+}
+
+#edit-post-form #post-details{
+    font-size: 0.85rem;
+    color: rgb(157, 158, 161);
+    margin-bottom: 10px;
+}
+
+#edit-post-form #edit-imageURL{
+    margin-bottom: 10px;
+}
+
+#edit-post-form #edit-content{
+    margin-bottom: 10px;
+}
+
+#edit-form-buttons{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#complete-edit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    color: #ffff;
+    white-space: nowrap;
+}
+
+#cancel-edit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #ffff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 7px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
 }

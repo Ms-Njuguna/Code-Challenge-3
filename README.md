@@ -48,7 +48,7 @@ To run any of the challenges:
 
 ## Project Preview
 
-![BLOG POST PREVIEW](../IMAGE_PATH/image.png)
+![BLOG POST PREVIEW](../images/project_Preview.gif)
 
 ---
 
